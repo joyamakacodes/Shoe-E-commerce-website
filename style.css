@@ -1,0 +1,215 @@
+@media (min-width: 375px) {
+    
+    .column{
+      display: block;
+    }
+    .add-cart{
+        display: inline-block;
+    }
+    .productContainer{
+        display: inline-block;
+    }
+  }
+.emptyCart{
+    text-align: center;
+    margin-bottom: 20px;
+}
+body{
+    margin: 0;
+     background-color: rgb(129, 129, 231); 
+}
+i{
+    cursor: pointer;
+}
+/* div{
+    border: 2px solid red;
+} */
+ .para{
+    color: rgb(18, 18, 43);
+    font-size: 20px;
+    font-weight: bolder;
+ }
+ .paras{
+    color: white;
+    font-weight: bolder;
+ }
+h4{
+    text-align: center;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    background-color:  rgb(129, 129, 231);
+    border: none;
+}
+
+.nav{
+    color: white;
+    font-weight: bolder;
+    background-color:  rgb(18, 18, 43) !important;
+}
+.nav a{
+    color:rgb(129, 129, 231);
+}
+.navItem:hover{
+    background-color: azure;
+    border-radius: 5px;
+}
+.user-icon{
+    padding: 0 1em;
+    display: flex;
+}
+ .header{
+background-size: cover ;
+background-repeat: no-repeat;
+} 
+.drop:hover{
+background-color: rgb(129, 129, 231);
+}
+.search:hover{
+background-color: rgb(129, 129, 231);
+}
+
+.slide{
+background-color: rgb(18, 18, 43);
+}
+.buttons {
+    background-color: rgb(129, 129, 231);
+    color: white;
+}
+.buttons:hover{
+    background-color: white;
+    color:  rgb(18, 18, 43);
+}
+
+.login-bg{
+    text-align: center;
+    background-image: url(/Images/sneakers/login\ sneakers.jpg); 
+    padding: 1em;
+    background-size: cover;
+     background-repeat: no-repeat; 
+    background-color: rgb(18, 18, 43);
+    color: white;
+}
+.signin-bg{
+    text-align: center;
+    background-image: url(/Images/leatherShoe/fashion-shoes-sneakers.jpg); 
+    background-size: cover;
+     background-repeat: no-repeat; 
+    background-color: rgb(18, 18, 43);
+    color: white;
+}
+
+.form-label{
+    margin: 0.2em;
+}
+.forms{
+    text-align: end;
+}
+.cart-title{
+    background-color:rgb(18, 18, 43);
+    color: white;
+    padding: 1em;
+}
+.checkout-btn-minus{
+    background-color: rgb(18, 18, 43);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.checkout-btn-plus{
+    background-color: rgb(18, 18, 43);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.checkout-btn-minus:hover{
+    background-color:rgb(129, 129, 231);
+    color: white;
+    border: none;
+}
+.checkout-btn-plus:hover{
+    background-color:rgb(129, 129, 231) ;
+    color: white;
+    border: none;
+}
+.label{
+    text-align: inherit;
+    color: white
+}
+#toast{
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    background-color:  white;
+    color: rgb(18, 18, 43);
+}
+.toast:hover{
+    background-color: rgb(18, 18, 43);
+    color: rgb(129, 129, 231);
+}
+.row-container{
+    margin: auto;
+}
+.carousel-item{
+    min-height: 200px;
+    max-height: 500px;
+}
+.main{
+    text-align: center;
+    margin: 3em auto;
+    /* background-color: rgb(129, 129, 231); */
+
+}
+.indv-column{
+    text-align: center;
+}
+
+.mains{
+    background-color: rgb(18, 18, 43);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 0.2em;
+    margin: 0.5em;
+    border-radius: 5px ;
+}
+.add-cart:hover{
+    background-color: rgb(18, 18, 43);
+}
+.testimonies{
+    /* background-color: black; */
+    color:white ;
+}
+.img-1{
+    transition: all 1s;
+    border-radius: 5px;
+}
+.img-1:hover{
+width: 60%;
+}
+.column{
+    justify-content: center;
+    display: flex;
+    gap: 1em;
+}
+.column-transition{
+    transition: width 3s;
+}
+
+footer{
+    background-color:  rgb(18, 18, 43);
+    color:white;
+    padding: 2em;
+}
+.footer-address{
+    display: flex;
+    gap: 2em;
+}
+.socials{
+    text-align: end;
+    word-spacing: 1em;
+}
+.row{
+    justify-content: center;
+}
